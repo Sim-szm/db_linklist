@@ -212,7 +212,7 @@ static inline void* __db_list_visit(db_list_t** list_head ,int num){
 	}
 	return current->data;
 }
-static inline void __db_list_travel(db_list_t* list_head ,void(*do_function)(void* arg)){
+static inline void __db_list_travel(db_list_t* list_head ,void(*do_function)(void* )){
 	if(list_head->limit_size<0 || list_head==NULL){
 		errno=EINVAL;
 		return ;
