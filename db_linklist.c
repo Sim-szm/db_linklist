@@ -221,7 +221,8 @@ static inline void __db_list_travel(db_list_t* list_head ,void(*do_function)(voi
 		(*do_function)(__db_list_visit(list_head,i));
 	}
 }
-static inline int __db_list_search(db_list_t** list_head,void* find_data ,int(*compare)(void* ,void* )){
+static inline int __db_list_search(
+		db_list_t** list_head,void* find_data ,int(*compare)(void* ,void* )){
 	int counter=1;
 	db_lnode_t* current;
 	if((*list_head)==NULL||list_head==NULL){
