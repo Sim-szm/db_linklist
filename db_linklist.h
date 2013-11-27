@@ -38,7 +38,7 @@ static inline void __db_lnode_flush(db_list_t* ,int ,void* );
 static inline void __db_list_delete(db_list_t** ,int );
 static inline void __db_list_destory(db_list_t* );
 static inline void* __db_list_visit(db_list_t** ,int );
-static inline void __db_list_travel(db_list_t* ,void(*)(void* ));
-static inline int __db_list_search(db_list_t** ,void* ,int(*)(void* ,void* ));
+static inline void __db_list_travel(db_list_t* ,void(*do_function)(void* ));
+static inline int __db_list_search(db_list_t** ,void* ,int(*compare)(void* ,void* ));
 
 #endif
