@@ -25,6 +25,7 @@ typedef struct db_lnode{
 	struct db_lnode* prev;
 	struct db_lnode* next;
 }db_lnode_t;
+
 typedef struct db_list{
 	int limit_size;
 	db_lnode_t* head;
