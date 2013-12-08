@@ -1,16 +1,22 @@
 /*
- * =====================================================================================
- *
- *       Filename:  db_linklist.h
- *        Version:  1.0
- *        Created:  2013年11月27日 17时25分56秒
- *       Revision:  none
- *       Compiler:  clang
- *         Author:  sim szm, xianszm007@gmail.com
- *        Company:  Class 1107 of Computer Science and Technology
- *
- * =====================================================================================
- */
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Library General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc.
+#
+# See the COPYING file for license information.
+#
+#Copyright (c) 2013  sim szm <xianszm007@gmail.com>
+*/
 #ifndef DB_LINKLIST_H
 #define DB_LINKLIST_H
 
